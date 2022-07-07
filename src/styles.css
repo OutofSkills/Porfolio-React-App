@@ -473,3 +473,7 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
+
+.fa-ul li i {
+    color: var(--clr-accent);
+}

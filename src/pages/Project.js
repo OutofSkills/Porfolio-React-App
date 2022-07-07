@@ -6,8 +6,8 @@ export default function Project(props){
     const details = props.getProject(id)
 
     return(
-        <>
+        <div>
           <ProjectDetails details={details}/>
-        </>
+        </div>
     )
 }

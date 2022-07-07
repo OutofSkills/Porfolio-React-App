@@ -6,13 +6,13 @@ export default function About(){
 
             <div className="about-me__body">
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Officiis a quas aliquam quibusdam enim veritatis hic reprehenderit fuga repudiandae non, impedit, adipisci iste, error sint animi doloribus explicabo quis perferendis!
-
+                    I'm a CS graduate passionate about technologies. I find working with
+                    technologies to be a rewarding activity that allows me to earn new skills
+                    every day and use them to create beautiful and interactive solutions that I'm
+                    pround of.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corporis sunt recusandae, 
-                    illo fugiat nobis dolor deserunt accusantium dolorum natus officiis saepe dignissimos voluptatibus magnam aut et eligendi maiores ipsam.
+                    As a former CS student I believe that there's nothing impossible achieve, it just takes more time. 
                 </p>
             </div>
 

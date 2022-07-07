@@ -1,21 +1,34 @@
-import Carousel from "./Carousel";
+import CarouselCompound from './carousel-compound'
+
 export default function ProjectDetails(props){
+    const carouselItems = props.details.screenshots.map((img, index) => {
+        return (
+            <CarouselCompound.Page key={index}>
+                <img src={require(`../images/${img}`)} style={{height:'550px'}} alt='Project screenshot'/>
+            </CarouselCompound.Page>
+        );
+    });
+    console.log(props)
+
+    const specElements = props.details.specs.map((spec, index) => {
+        return (
+            <li key={index}><i className="fa-solid fa-bug"></i> <b>{spec}</b></li>
+        );
+    });
+
     return(
         <div className="portfolio-item-individual">
+            <h2 style={{textAlign:'center'}}>{props.details.title}</h2>
             <p>
-                {props.details.p1}
+               {props.details.description}
             </p>
-            {/* <img src={require(`../images/${props.details.img}`)} alt=""/> */}
+            <CarouselCompound infinite>
+                {carouselItems}
+            </CarouselCompound>
 
-            <Carousel />
-
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Quisquam fugiat eius numquam, unde modi inventore, id architecto atque, maxime odit incidunt iure reprehenderit blanditiis suscipit odio. Ex veniam consequatur sint.
-            </p>
-            <p>
-            {props.details.p2}
-            </p>
+            <ul className='fa-ul'>
+                {specElements}
+            </ul>
         </div>
     );
 }

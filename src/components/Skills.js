@@ -8,24 +8,23 @@ export default function Skills(){
                 <div className="service">
                     <h3>Design + Development</h3>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo consequatur consectetur beatae perferendis eos velit, 
-                        quibusdam eum vitae dicta dolor, iure officia animi deleniti molestiae. In totam hic voluptas mollitia.
+                        As a software engineer I can design and implement a solution in diffrent enviroments. 
+                        I have experience working with UML diagrams and diffrent types of architectures like MVC, MVVM or simple n-tires architecture.
                     </p>
                 </div>
 
                 <div className="service">
                     <h3>Android Solution</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus sint iure, 
-                        rem tempore quae molestiae rerum ad ratione tempora quos nulla cupiditate nam expedita aliquid eum! Tempore, nisi odit.
+                        I'm able to build an andoid solution from scratch or contribute to an existing one built by using Java, Google Api, Firebase, SQLite or Retrofit.
                     </p>
                 </div> 
 
                 <div className="service">
-                    <h3>React + Asp.NET</h3>
+                    <h3>Web Applications</h3>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Repellat perferendis nam cumque modi nobis esse blanditiis quaerat excepturi molestias, pariatur, voluptates sequi accusamus vel aliquid! Recusandae id quasi reiciendis ducimus?
+                        I have developed multiple Web application by using diffrent technologies. 
+                        For a SPA I can use React or Blazor and for server based applications Asp.NET or Symfony.
                     </p>
                 </div>
             </div> 
