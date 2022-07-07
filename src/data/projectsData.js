@@ -1,4 +1,4 @@
-export default {
+const projects = {
     "data": [
         {
             id: 1,
@@ -60,5 +60,19 @@ export default {
             p1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error molestiae, provident et nostrum accusamus porro consequatur! Sit, officiis rem maxime harum illum optio ipsam labore non blanditiis nam praesentium?",
             p2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos doloremque quos quod earum, nulla aliquam iste distinctio eos itaque officia ea vitae ipsa exercitationem quisquam error? Reprehenderit voluptatem quaerat modi!"
         },
+        {
+            id: 11,
+            img: "intelliweb.png",
+            p1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error molestiae, provident et nostrum accusamus porro consequatur! Sit, officiis rem maxime harum illum optio ipsam labore non blanditiis nam praesentium?",
+            p2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos doloremque quos quod earum, nulla aliquam iste distinctio eos itaque officia ea vitae ipsa exercitationem quisquam error? Reprehenderit voluptatem quaerat modi!"
+        },
+        {
+            id: 12,
+            img: "admin-web.png",
+            p1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error molestiae, provident et nostrum accusamus porro consequatur! Sit, officiis rem maxime harum illum optio ipsam labore non blanditiis nam praesentium?",
+            p2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos doloremque quos quod earum, nulla aliquam iste distinctio eos itaque officia ea vitae ipsa exercitationem quisquam error? Reprehenderit voluptatem quaerat modi!"
+        },
     ]
 }
+
+export default projects;
